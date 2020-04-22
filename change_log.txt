@@ -1,0 +1,17 @@
+-v 0.1
+disabled /kill @e command without a entity selector
+
+-v 0.2
+add /cb command, get a command block
+add /landmark command
+  /landmark list
+    list all landmarks to the chat window
+  /landmark create [name] (<x> <y> <z> description...)
+    create a landmakr (parameters in "()" is optional)
+  /landmark remove [name]
+    remove a landmark with [name]
+  /landmark go [name]
+    go to the landmark with [name]
+
+-v 0.2.1
+  /cb command hotfix
