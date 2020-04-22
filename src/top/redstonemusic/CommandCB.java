@@ -15,7 +15,7 @@ public class CommandCB implements TabExecutor {
 		// TODO Auto-generated method stub
 		if (sender instanceof Player) {
 			Player player = (Player) sender;
-			player.performCommand("/give @s minecraft:command_block");
+			player.performCommand("give @s minecraft:command_block 1");
 			return true;
 		}
 		return false;
