@@ -1,0 +1,9 @@
+name: Teahouse
+main: top.redstonemusic.TeahousePlugin
+version: 0.2
+api-version: 1.14
+commands: 
+    cb: 
+        description: get a command block
+    landmark:
+        description: make a landmark
